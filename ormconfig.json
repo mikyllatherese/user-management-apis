@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "type": "mysql",
   "host": "localhost",
   "port": 3307,
@@ -9,3 +10,15 @@
   "logging": true,
   "entities": ["src/entities/*.ts"]
 }
+=======
+    "type": "mysql",
+    "host": "localhost",
+    "port": 3307,
+    "username": "root",
+    "password": "",
+    "database": "user_management",
+    "entities": ["src/entities/*.ts"],
+    "synchronize": true,
+    "logging": false
+  }
+>>>>>>> Caballero-user-creation
