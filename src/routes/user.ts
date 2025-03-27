@@ -30,7 +30,7 @@ router.delete("/:id", async (req, res) => {
   
 
 export default router;
-=======
+
 //List all users (GET request)
 router.get("/", async (req, res) => {
     console.log(" Fetching all users...");
