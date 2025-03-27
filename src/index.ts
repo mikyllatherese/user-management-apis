@@ -20,20 +20,11 @@ app.use("/users", userRoutes);
 // Initialize Database & Start Server
 AppDataSource.initialize()
   .then(() => {
-<<<<<<< HEAD
-    console.log("✅ Database connected successfully");
+    console.log("Database connected successfully");
 
     app.listen(PORT, () => {
-      console.log(`🚀 Server running on http://localhost:${PORT}`);
+      console.log(`Server running on http://localhost:${PORT}`);
     });
   })
-  .catch((error) => console.error("❌ Database connection error:", error));
-=======
-    console.log(" Database connected successfully");
+  .catch((error) => console.error("Database connection error:", error));
 
-    app.listen(PORT, () => {
-      console.log(` Server running on http://localhost:${PORT}`);
-    });
-  })
-  .catch((error) => console.error(" Database connection error:", error));
->>>>>>> Caballero-user-creation
