@@ -27,11 +27,8 @@ router.delete("/:id", async (req, res) => {
       res.status(500).json({ error: "Error deleting user" });
     }
   });
-  
 
-export default router;
-
-//List all users (GET request)
+  //List all users (GET request)
 router.get("/", async (req, res) => {
     console.log(" Fetching all users...");
     const userRepository = AppDataSource.getRepository(User);
@@ -45,4 +42,7 @@ router.get("/", async (req, res) => {
       res.status(500).json({ error: "Error retrieving users" });
     }
   });
+  
+
+export default router;
 
