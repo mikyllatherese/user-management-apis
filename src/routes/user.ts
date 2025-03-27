@@ -1,8 +1,4 @@
-import * as express from "express";
-import { AppDataSource } from "../config/database";
-import { User } from "../entities/User";
 
-const router = express.Router();
 
 // Create a new user (POST request)
 router.post("/", async (req, res) => {
@@ -25,6 +21,6 @@ router.post("/", async (req, res) => {
   }
 });
 
-export default router;
+
 
 
