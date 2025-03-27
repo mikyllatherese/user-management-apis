@@ -4,7 +4,7 @@ import { User } from "../entities/User";
 
 const router = express.Router();
 
-// 📌 Create a new user (POST request)
+// Create a new user (POST request)
 router.post("/", async (req, res) => {
   console.log(" Creating a new user...");
   const userRepository = AppDataSource.getRepository(User);
