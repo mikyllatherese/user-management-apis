@@ -1,4 +1,3 @@
-
 //List all users (GET request)
 router.get("/", async (req, res) => {
   console.log(" Fetching all users...");
@@ -13,5 +12,3 @@ router.get("/", async (req, res) => {
     res.status(500).json({ error: "Error retrieving users" });
   }
 });
-
-
