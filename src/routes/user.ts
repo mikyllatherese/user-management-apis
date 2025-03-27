@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import * as express from "express";
 import { AppDataSource } from "../config/database";
 import { User } from "../entities/User";
@@ -26,3 +27,5 @@ router.post("/", async (req, res) => {
 });
 
 export default router;
+=======
+>>>>>>> 7a882badc9378f6142cdaef961a81a779de7f97e
