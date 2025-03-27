@@ -1,8 +1,3 @@
-import express, { Request, Response } from "express";
-import { AppDataSource } from "../config/database";
-import { User } from "../entities/User";
-
-const router = express.Router();
 
 //List all users (GET request)
 router.get("/", async (req, res) => {
@@ -19,4 +14,4 @@ router.get("/", async (req, res) => {
   }
 });
 
-export default router;
+
