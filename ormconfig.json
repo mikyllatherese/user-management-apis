@@ -5,13 +5,13 @@
     "username": "root",
     "password": "",
     "database": "user_management",
-<<<<<<< HEAD
     "entities": ["src/entities/*.ts"],
     "synchronize": true,
     "logging": false
-=======
     "synchronize": true,
     "logging": true,
     "entities": ["src/entities/*.ts"]
->>>>>>> d82085ba52f80f98404de0364f1937dad33f3fbb
+    "synchronize": true,
+    "logging": true,
+    "entities": ["src/entities/*.ts"]
   }

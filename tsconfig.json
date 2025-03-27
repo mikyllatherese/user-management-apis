@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
     "target": "ES6",
     "module": "CommonJS",
     "strictPropertyInitialization": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true
-=======
+
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Projects */
@@ -117,6 +116,5 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
->>>>>>> d82085ba52f80f98404de0364f1937dad33f3fbb
   }
 }
